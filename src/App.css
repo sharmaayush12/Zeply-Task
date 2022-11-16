@@ -1,38 +1,115 @@
-.App {
+
+ul{
+  list-style-type: none;
+  padding-left: 0 !important;
+}
+
+ul li{
+  margin-top: 30px;
+}
+
+ul li a{
+text-decoration: none;
+color:black;
+font-weight: bolder;
+
+}
+
+.sidebar
+{
+  box-shadow: 5px 10px 4px #888888;
+  height: 100vh;
+  border-radius: 0 20px 20px 0px; 
+}
+
+.btnHeader
+{
+  margin: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btnHeader a{
+  margin-left: 30px;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnHeader a:hover{
+  background-color: rgb(61, 201, 155);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main-section
+{
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-form{
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-section button{
+  color: black;
+}
+
+.main-section button :hover{
+ background-color: aquamarine;
+}
+
+.modals-content
+{
+  text-align: center;
+
+}
+
+.modal-content
+{
+  height: 80vh;
+  background-image: url('./Images/wallet.png');
+}
+
+.close-btn
+{
+  width: fit-content;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.main-content
+{
+  position: absolute;
+  top: 80px;
+  left: 30px;
+  text-align: center;
+}
+
+.label-text h6
+{
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+.sidebtn
+{
+  border: none;
+}
+
+.sidebtn i{
+  color: #fff;
+}
+
+.submenu a li{
+  font-size: 15px !important;
+  text-decoration: none;
+  color:black;
+  font-weight: 500 !important;
+  margin-left: 20px;
+}
+
+
+.icon
+{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
